@@ -1,0 +1,73 @@
+/* src/css/PatientForm.css */
+
+.patient-form-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .patient-form-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #076b82;
+  }
+  
+  .patient-form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .patient-form-container label {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .patient-form-container input,
+  .patient-form-container select {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+  }
+  .contacts-form h3, .addresses-form h3 {
+    font-size: 20px;
+    color: #076b82;
+  }
+  
+  .contact-description {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+  }
+      
+    .contact-info-form, .address-form {
+        border: 1px solid #e0e0e0;
+        border-radius: 4px;
+        padding: 10px;
+        margin-bottom: 10px;
+        background-color: #f9f9f9;
+    }
+   
+  .add-button, .submit-button {
+    background-color: #076b82;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-start;
+  }
+  
+  .add-button:hover, .submit-button:hover {
+    background-color: #04404d;
+  }
+  

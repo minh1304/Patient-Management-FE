@@ -1,0 +1,79 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Light background for the app */
+  color: #333; /* Dark text color for readability */
+  margin: 0;
+  padding: 0;
+}
+
+/* Container styles for the main app */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Button styles */
+.create-button {
+  display: inline-flex;
+  align-items: center;
+  /* padding: 10px 20px; */
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(45deg, #4c87a7, #75c780);
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.create-button i {
+  margin-right: 8px; 
+}
+
+.create-button:hover {
+  background: linear-gradient(45deg, #75c780, #4c87a7); 
+}
+
+.patient-list-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/* .search-input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 300px;
+} */
+.search-input-container {
+  display: flex;
+  justify-content: center; /* Center the input within the container */
+  margin-bottom: 5px; /* Space below the input */
+}
+.search-input {
+  width: 100%;
+  max-width: 1200px; /* Limits the maximum width of the input */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+  font-size: 16px;
+}
+
+.loading {
+  font-size: 16px;
+  color: #007bff;
+}
